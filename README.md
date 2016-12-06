@@ -24,6 +24,10 @@ remaining data balance of their subscription
 
 Our `collection.json` is based on one of our public facing API's. It's built to the specification of [http://jsonapi.org/](http://jsonapi.org/) which is the standard for developing API's that we use here at amaysim.
 
+Here's some other handy tips:
+* All data and data balances are represented in mb but should be presented to the customer in GB
+* All monetary values are represented in cents but should be presented to the customer in dollars
+
 ## Technical Guidance
 
 1. Use the programming language and tooling of your choice, either Objective C/Swift/Java
